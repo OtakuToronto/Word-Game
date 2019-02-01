@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang =en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Word Game</title>
+<link rel="reset" href="./assets/css/reset.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+    <body>
+<!--Bootstrap Jumbotron starts-->
+        <div class="jumbotron jumbotron-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center"></div>
+            <div class="col-12 col-md-8 my-3 py5">
+<!--Youtube video for game-->
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3dLqUADUNZ0?list=PLMItNnvC0LKLMxvPbvEFe8JwmkZYjpwq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+            <h1 class="display-4">Top 10 Anime word game</h1>
+             <p class="lead">This is a simple word game comprised of my personal top 10 anime series. Play the video play list to enjoy the opening theme songs  while you play. Can you guess what they are?</p>
+            <div class="col-12 col-md-4 my-3 py5">
+
+            <h1>The top 10</h1>
+            <button id="newgamebutton">
+            <i class="fas fa-gamepad"></i>
+            Start a new Game
+            </button>
+            </div>
+        </div>
+    </div>
+<!-- Jumbotron ends-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-12 my-3 py5 align-items-center" id="placeholdersection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 my-3 py5 align-items-center"></div>
+                    <h2>Can you guess this Anime title?
+                    <span id="placeholders">____ __ ___</span></h2>
+                    
+                    <div class="col-12 col-md-12 my3 py5 align-items-center"></div>
+                    <h2>Letters used.<br><span id="guessedletters"> </span>
+                        <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row">
+            <div class="col-6 col-md-2 py5"></div>
+            <h3>Guesses Left: <span id="guessesleft">0</span></h3>
+            <div class="col-6 col-md-2 py5"></div><br>
+            <h3>Wins: <span id="wins">0</span></h3>
+            <div class="col-6 col-md-2 py5"></div>
+            <h3>Losses: <span id="losses">0</span></h3>
+            <br>
+            <br>
+            <br>
+</div> 
+
+<div id="photobox">
+</div>
+
+<div class="footer">
+        © Copyright Holland Gronau January, 2019
+</div>
+
+<script src="gamefunction2.js"></script>
+<!--<script src="gameobjects2.js"></script>-->
+
+
+    </body>
+    </html>
